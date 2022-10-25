@@ -53,3 +53,22 @@ console.log(rndNum);
 console.log(rndNum);
 console.log(rndNum);
 console.log(rndNum);
+
+
+if(true || true){
+    console.log("true");
+}
+if(true && true){
+    console.log("true");
+}
+
+if(7 > 4 || 14 < 10){
+    console.log("tiks.");
+}
+
+let a = 12;
+let b = 30;
+    // true          ir    true
+if( (a < 5 || a > 2) && ( b > 5 || b < 2) ){
+
+}
